@@ -30,7 +30,7 @@ def get_weather_data(lat, lon, appid):
 
 city_data = get_city_data()
 lat, lon = city_data['latitude'], city_data['longitude']
-appid = '51e0b498db42548b353953e7e3fee2f6'
+appid = 'YOUR_API_KEY for  OpenWeatherMap'
 
 temperature = get_weather_data(lat, lon, appid)
 
